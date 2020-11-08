@@ -18,7 +18,7 @@ public class Codecracker {
     }
 
     public static String[] chooseYourKey(String key){
-        String[] alphabet = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",};
+        String[] alphabet = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
         String[] defaultKey = {"!", ")","\"","(","£","*","%","&",">","<","@","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o"};
         String[] keyConvert = key.split("");
         String[] finalKey = new String[alphabet.length];
